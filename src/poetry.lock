@@ -322,6 +322,21 @@ files = [
 typing-extensions = ">=3.10"
 
 [[package]]
+name = "pygments"
+version = "2.17.2"
+description = "Pygments is a syntax highlighting package written in Python."
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "pygments-2.17.2-py3-none-any.whl", hash = "sha256:b27c2826c47d0f3219f29554824c30c5e8945175d888647acd804ddd04af846c"},
+    {file = "pygments-2.17.2.tar.gz", hash = "sha256:da46cec9fd2de5be3a8a784f434e4c4ab670b4ff54d605c4c2717e9d49c4c367"},
+]
+
+[package.extras]
+plugins = ["importlib-metadata"]
+windows-terminal = ["colorama (>=0.4.6)"]
+
+[[package]]
 name = "pytz"
 version = "2023.3.post1"
 description = "World timezone definitions, modern and historical"
@@ -373,4 +388,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "f8e5a9c6768ab7abf9b5feb0e6bfa8f6507472dbeb57ad8b53d5c41c1eb93cd6"
+content-hash = "6075ebf94f39770a3ea226352d9a29ec5ebfbc48f2bb7d2e794e74675d5767b4"
